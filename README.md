@@ -29,10 +29,13 @@ Toda la infraestructura se despliega en local utilizando Vagrant y VirtualBox, y
 
 | Máquina                | IP Privada       | Rol                        |
 |------------------------|------------------|----------------------------|
-| `BalanceadorCarloscast` | `192.168.10.5`   | Balanceador de carga Nginx |
+| `BalanceadorCarloscast` | `192.168.10.5`   | Balanceador de carga Nginx|
 | `Web1Carloscast`       | `192.168.10.10`  | Servidor web Nginx         |
+|                        | `192.168.15.11`  |                            |
 | `Web2Carloscast`       | `192.168.10.11`  | Servidor web Nginx         |
+|                        | `192.168.15.12`  |                            |
 | `NFSCarloscast`        | `192.168.10.12`  | Servidor NFS y PHP-FPM     |
+|                        | `192.168.15.13`  |                            |
 | `SGBDCarloscast`       | `192.168.15.10`  | Base de datos MariaDB      |
 
 ### Direccionamiento de Red
